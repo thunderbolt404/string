@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <ctype.h>
 #include <string.h>
 void convertcase(char str[]){
-    int i=0;
+    int i;
     printf("Entered string is: %s\n", str);
     for(i=0;str[i]!='\0';i++)str[i]= toupper(str[i]);
     printf("String in upper case is: %s\n",str);
